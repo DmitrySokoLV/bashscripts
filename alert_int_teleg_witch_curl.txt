@@ -1,0 +1,3 @@
+ssh $SSH_SERVER_DEV -C "curl -s -X POST https://api.telegram.org/bot5369133722:AAFcn9IxF04QjSCw33PGucnzQVdl6uKJKPE/sendMessage -F chat_id='-1001635187722' -F text='✅✅ Lotterium-Site-dev deploy version $CURRENT_TAG  success ✅✅'"
+
+только поменять токен бота и чат айди
